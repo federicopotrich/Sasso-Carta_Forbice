@@ -13,11 +13,35 @@ i[class='fa-solid fa-thumbs-down']{
     text-shadow: -1px 1px 2px black, 1px 1px 2px black, -1px -1px 2px black, 1px -1px 2px black;
     font-size: 1.5rem;
 }
+.bar2 div a{
+    margin-top: 10px;
+}
+a{
+    color: purple;
+    text-decoration: none;
+}
+.bar2 div{
+    display: flex;
+    flex-direction: column;
+}
 
 *{
     margin: 0;
 }
 @media (min-width: 1200px){
+    .nemico{
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        height: 250px;
+        font-size: 3rem;
+        text-align: center;
+        border: 1px solid;
+        margin-right: 3px;
+        transition: .6s ease;
+        background-color: #efefef;
+
+    }
     .bar2{
         margin: 5px;
         display: flex;
@@ -117,7 +141,7 @@ i[class='fa-solid fa-thumbs-down']{
         overflow-y: hidden;
         height: 50%;
     }
-    .button{
+    .button, .nemico{
         width: 150px;
         height: 150px;
         font-size: 2.5rem;

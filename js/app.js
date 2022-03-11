@@ -155,6 +155,7 @@ function isVittoria(strMossa){
     localStorage.setItem('perdite', arrayVPP[2])
     usabile = false;
 }
+
 giocaNuovamente.addEventListener('click', (event)=>{
     event.preventDefault()
 
